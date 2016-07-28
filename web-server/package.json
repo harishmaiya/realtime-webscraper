@@ -1,0 +1,13 @@
+{
+  "name": "node-webcrawl",
+  "version": "0.0.1",
+  "description": "antarjaala huduku",
+  "main": "server.js",
+  "author": "Harish Maiya",
+  "dependencies": {
+    "amqp": "*",
+    "body-parser": "^1.15.2",
+    "express": "latest",
+    "request": "latest"
+  }
+}

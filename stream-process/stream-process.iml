@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="stream-process" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/build/classes/main" />
+    <output-test url="file://$MODULE_DIR$/build/classes/test" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.flink:flink-scala_2.11:1.0.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.flink:flink-streaming-scala_2.11:1.0.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.flink:flink-clients_2.11:1.0.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.flink:flink-connector-rabbitmq_2.11:1.0.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: net.ruippeixotog:scala-scraper_2.11:1.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.typesafe.play:play_2.11:2.4.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.flink:flink-core:1.0.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.flink:flink-java:1.0.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.flink:flink-optimizer_2.11:1.0.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.slf4j:slf4j-log4j12:1.7.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.flink:force-shading:1.0.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.flink:flink-runtime_2.11:1.0.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-cli:commons-cli:1.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.rabbitmq:amqp-client:3.3.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.joda:joda-convert:1.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.5.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.5.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.5.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.5.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.5.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.github.nscala-time:nscala-time_2.11:2.12.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.typesafe:config:1.3.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: net.sourceforge.htmlunit:htmlunit:2.20" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.jsoup:jsoup:1.8.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.scalaz:scalaz-core_2.11:7.2.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.typesafe.play:build-link:2.4.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.typesafe.play:play-netty-utils:2.4.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.typesafe.play:twirl-api_2.11:1.1.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.slf4j:jul-to-slf4j:1.7.12" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.12" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: ch.qos.logback:logback-core:1.1.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: ch.qos.logback:logback-classic:1.1.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.typesafe.akka:akka-actor_2.11:2.3.13" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.typesafe.akka:akka-slf4j_2.11:2.3.13" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.scala-stm:scala-stm_2.11:0.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: xerces:xercesImpl:2.11.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.transaction:jta:1.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.inject:guice:4.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.inject.extensions:guice-assistedinject:4.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.flink:flink-annotations:1.0.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.esotericsoftware.kryo:kryo:2.24.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.avro:avro:1.7.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.flink:flink-shaded-hadoop2:1.0.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.commons:commons-math3:3.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.commons:commons-math:2.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.sling:org.apache.sling.commons.json:2.0.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: io.netty:netty-all:4.0.27.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.typesafe.akka:akka-remote_2.11:2.3.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.clapper:grizzled-slf4j_2.11:1.0.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.github.scopt:scopt_2.11:3.2.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: io.dropwizard.metrics:metrics-core:3.1.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: io.dropwizard.metrics:metrics-jvm:3.1.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: io.dropwizard.metrics:metrics-json:3.1.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.zookeeper:zookeeper:3.4.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.twitter:chill_2.11:0.7.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: xalan:xalan:2.7.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.httpcomponents:httpclient:4.5.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.httpcomponents:httpmime:4.5.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: net.sourceforge.htmlunit:htmlunit-core-js:2.17" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: net.sourceforge.nekohtml:nekohtml:1.9.22" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: net.sourceforge.cssparser:cssparser:0.9.18" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-io:commons-io:2.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.eclipse.jetty.websocket:websocket-client:9.2.15.v20160210" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.typesafe.play:play-exceptions:2.4.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: xml-apis:xml-apis:1.4.01" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.guava:guava:16.0.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.esotericsoftware.minlog:minlog:1.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.objenesis:objenesis:2.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.codehaus.jackson:jackson-core-asl:1.9.13" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.codehaus.jackson:jackson-mapper-asl:1.9.13" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.thoughtworks.paranamer:paranamer:2.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: xmlenc:xmlenc:0.52" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-net:commons-net:3.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-collections:commons-collections:3.2.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.servlet:servlet-api:2.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.mortbay.jetty:jetty-util:6.1.26" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.sun.jersey:jersey-core:1.9" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.jamesmurty.utils:java-xmlbuilder:0.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-configuration:commons-configuration:1.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-digester:commons-digester:1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.xerial.snappy:snappy-java:1.0.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.jcraft:jsch:0.1.42" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.commons:commons-compress:1.4.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.tukaani:xz:1.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-beanutils:commons-beanutils-bean-collections:1.8.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-daemon:commons-daemon:1.0.13" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.xml.bind:jaxb-api:2.2.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.xml.stream:stax-api:1.0-2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.activation:activation:1.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-el:commons-el:1.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: io.netty:netty:3.8.0.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.protobuf:protobuf-java:2.5.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.uncommons.maths:uncommons-maths:1.2.2a" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jline:jline:0.9.94" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.twitter:chill-java:0.7.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: xalan:serializer:2.7.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.httpcomponents:httpcore:4.4.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.w3c.css:sac:1.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.eclipse.jetty:jetty-util:9.2.15.v20160210" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.eclipse.jetty:jetty-io:9.2.15.v20160210" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.2.15.v20160210" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: junit:junit:3.8.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.2.15.v20160210" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.scala-lang:scala-library:2.11.8" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.scala-lang:scala-compiler:2.11.8" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.typesafe.play:play-iteratees_2.11:2.4.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.typesafe.play:play-json_2.11:2.4.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.slf4j:slf4j-api:1.7.12" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.commons:commons-lang3:3.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: joda-time:joda-time:2.9.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.javassist:javassist:3.19.0-GA" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.scala-lang:scala-reflect:2.11.8" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.scala-lang.modules:scala-xml_2.11:1.0.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.typesafe.play:play-functional_2.11:2.4.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.typesafe.play:play-datacommons_2.11:2.4.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.flink:flink-streaming-java_2.11:1.0.3" level="project" />
+  </component>
+</module>

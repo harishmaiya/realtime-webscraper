@@ -1,0 +1,41 @@
+apply plugin: 'scala'
+
+buildscript {
+    repositories { jcenter() }
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:1.2.3'
+    }
+}
+
+apply plugin: 'com.github.johnrengelman.shadow'
+
+dependencies {
+    compile 'org.apache.flink:flink-scala_2.11:1.0.3'
+    compile 'org.apache.flink:flink-streaming-scala_2.11:1.0.3'
+    compile 'org.apache.flink:flink-clients_2.11:1.0.3'
+    compile 'org.apache.flink:flink-connector-rabbitmq_2.11:1.0.3'
+    compile 'com.typesafe.play:play-json_2.11:2.4.3'
+    compile 'net.ruippeixotog:scala-scraper_2.11:1.0.0'
+    compile 'com.typesafe.play:play_2.11:2.4.6'
+}
+
+repositories{
+    mavenCentral()
+}
+
+jar {
+    zip64 true
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    manifest {
+        attributes (
+                'Main-Class' : 'flink.streamer/FlinkStream'
+        )
+    }
+}
+
+shadowJar {
+    zip64 true
+    transform(com.github.jengelman.gradle.plugins.shadow.transformers.AppendingTransformer) {
+        resource = 'reference.conf'
+    }
+}
