@@ -4,9 +4,13 @@ This application inputs Amazon product URLs and processes for interesting words 
 
 ##Application stack:
 -------------------
-  Webserver NodeJS
+  Webserver: NodeJS
+  
   Queue: RabbitMQ hosted on cloudamqp
+  https://api.cloudamqp.com/console/24393069-4932-4e5d-8f6d-e002fe0e3af5/details
+  
   Backend stream process engine: Flink & Scala
+  
   DataStore: Not supported
 
 ##Steps to run:
@@ -26,6 +30,5 @@ This application inputs Amazon product URLs and processes for interesting words 
 ###Build:
  gradle clean shadowJar
 
-Webserver and Backend streaming engine talk communicate through RabbitMQ queue hosted on cloud.
-https://api.cloudamqp.com/console/24393069-4932-4e5d-8f6d-e002fe0e3af5/details
+Webserver and Backend streaming engine communicate through RabbitMQ queue hosted on cloud.
 
