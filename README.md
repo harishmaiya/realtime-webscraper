@@ -1,6 +1,6 @@
 ##Summary:
 ---------
-This application inputs Amazon product URLs and processes for interesting words in product description.
+Application inputs Amazon product URLs and process for interesting words in product description. Outputs list of words by their popularity.
 
 ##Application stack:
 -------------------
@@ -13,22 +13,35 @@ This application inputs Amazon product URLs and processes for interesting words 
   
   DataStore: Not supported
 
-##Steps to run:
+##Start services:
 --------------
 
-###1. start Web server
+###1. Web server
   cd web-server
   
   node server.js
+  Application uses port: 9200
 
 
-###2. start Backend server
+###2. Backend/Stream server
   cd stream-process
   
   java -jar build/libs/stream-process-all.jar
 
+##Run:
+Intitialize webserver through GET: 
+
+http://localhost:9200/api/start
+
+Subsequent POST calls to include Amazon Products:
+
+http://localhost:9200/api/url?
+Body: http://www.amazon.com/gp/product/B00VVOCSOU
+
+
 ###Build:
  gradle clean shadowJar
+
 
 Webserver and Backend streaming engine communicate through RabbitMQ queue hosted on cloud.
 
