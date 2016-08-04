@@ -1,16 +1,23 @@
-STEPS to RUN
+Summary: This application inputs Amazon product URLs and process for interesting words in product description.
 
-Webserver - NodeJs:
---------------------
+Application stack: 
+  Webserver NodeJS
+  Queue: RabbitMQ hosted on cloudamqp
+  Backend stream process engine: Flink & Scala
+  DataStore: Not supported
+
+Steps to run:
+--------------
+start Webserver
 cd web-server
 node server.js
 
-Backend server - Flink/Scala:
-------------------------------
+start Backend server
+--------------------
 cd stream-process
 java -jar build/libs/stream-process-all.jar
 
-To build:
+Build:
 gradle clean shadowJar
 
 Webserver and Backend streaming engine talk communicate through RabbitMQ queue hosted on cloud.
