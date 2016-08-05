@@ -1,6 +1,6 @@
 ##Summary:
 ---------
-Application inputs Amazon product URLs and process for interesting words in product description. Outputs list of words by their popularity.
+Application inputs stream of URLs (Amazon products) and process for interesting words in product description. Outputs rolling/realtime list of unique words by their popularity.
 
 ##Application stack:
 -------------------
